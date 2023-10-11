@@ -18,7 +18,7 @@ the javascript part can't be run normally because thunderbird has decided to dit
 Now Do this: In Thunderbird
 
 - Help > Troubleshooting Information
-  in 'Application Basics' - Profile Folders - click on 'Open Folder' 
+- in 'Application Basics' - Profile Folders - click on 'Open Folder' 
 
 A new window opens showing the contents of your profile name folder.
 
