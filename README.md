@@ -6,6 +6,9 @@ most of the CSS is based comments in [this thread on the mozilla support page](h
 
 the javascript part can't be run normally because thunderbird has decided to ditch custom js support through that file. use this addon to still make use of js: https://addons.thunderbird.net/en-US/thunderbird/addon/userchromejs-2/
 
+![image](https://github.com/TayouVR/ThunderbirdTweaks/assets/31988415/3920a982-3448-4eea-ace0-c9db18ab5a7f)
+
+
 ## Instructions <sub>(shamelessly copied from support thread)</sub>
 
 - Settings > General
