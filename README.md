@@ -28,7 +28,7 @@ A new window opens showing the contents of your profile name folder.
 I'm going to give the full instructions because I do not know if people already know how to create and use a userChrome.css file.
 
 - In the 'profile name ' folder create a new folder and call it 'chrome'. The spelling is important - note it is all lower case.
-- paste the files userChrome.css and .js into the folder (depending on what youwant to use)
+- paste the files userChrome.css and .js into the folder (depending on what you want to use)
 - restart thunderbird to reload
 
 ![2023-09-03-04-44-46-5d4670](https://github.com/TayouVR/ThunderbirdTweaks/assets/31988415/907f8437-252c-4e31-ad1b-97c9b9fedf9d)
