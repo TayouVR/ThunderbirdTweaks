@@ -1,14 +1,20 @@
 @import url("chrome://messenger/content/unifiedtoolbar/unifiedToolbarWebextensions.css");
 @namespace html url("http://www.w3.org/1999/xhtml");
 
-/* Position Menu Bar above Unified Toolbar */
-#toolbar-menubar {
-order: -1 !important;
+/* Position Menu Bar, Unified Toolbar and Tab Bar in different order */    
+toolbar-menubar { 
+	order: 1;
+}
+tabs-toolbar {
+	order: 2;
+}
+unified-toolbar {
+	order: 3;
 }
 
 /*  Message List - slightly lighter grey striping (for default dark theme) */
 #threadTree tr:nth-child(2n) {
-  background-color: #1d1d21 !important;
+	background-color: #1d1d21 !important;
 }
 
 /* threads pane selected row on even grey rows (default dark theme) */
@@ -18,7 +24,7 @@ order: -1 !important;
 #threadTree tr.selected,
 #threadTree tr.selected:hover,
 #threadTree tr:hover {
-background-color: #1a3046 !important; /*default dark selection blue*/
+	background-color: #1a3046 !important; /*default dark selection blue*/
 } 
 
 /* move titlebar buttons to top right */
